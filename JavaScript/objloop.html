@@ -1,0 +1,21 @@
+<html>
+<body>
+<h2>Java Script Objects</h2>
+
+<p> Displaying a Javascript object properties:</p>
+<p id="demo"></p>
+<script>
+const person= {
+name:"Alina",
+rollno:15,
+state:"Goa"
+};
+let text="";
+for(let x in person){
+text+=person[x]+" ";
+};
+document.getElementById("demo").innerHTML=text;
+</script>
+</body>
+</html>
+
